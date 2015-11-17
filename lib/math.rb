@@ -25,9 +25,11 @@ end
 
 def square_root(num)
   value = Math.sqrt(num)
+  return value
 end
 
 def order_of_operation(num1, num2, num3, num4)
   #Hint:  __ + (( __ * __ ) / __ )
-  num1 + ( ( num2 * num3) / num4 )
+  value = num1 + ( ( num2 * num3) / num4 )
+  return value
 end
